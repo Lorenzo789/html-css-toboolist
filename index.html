@@ -8,15 +8,37 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- inizio header -->
     <header>
         <img id="logo" src="./img/Logo.png" alt="">
         <span id="logo-text">Toboolist</span>                          
     </header>
+    <!-- fine header -->
+
+    <!-- inizio main -->
     <main>
         <div class="container">
-            <input id="bottone" type="button" value="Add Task">
-            <input id="bottone2" type="botton" value="Add Section">
-            <hr>
+            <div>
+                <input id="bottone" type="button" value="Add Task">
+                <input id="bottone2" type="button" value="Add Section">
+                <hr>
+            </div>
+            <!-- inizio sezione task -->
+            <section class="contenuto">
+                <h1><span class="simboli">&#9660;</span>New Task</h1>
+                <span class="simbolo-check">&#10003;</span><span>Quarterly Newsletter</span><span class="scritte-colorate">Editorial</span>
+            </section>
+            <!-- fine sezione task -->
+
+            <!-- inizio sezione today -->
+            <section class="contenuto">
+                <h1><span class="simboli">&#9660;</span>Today</h1>
+                <span class="simbolo-check">&#10003;</span><span>Recruiting Blog Post</span><span class="scritte-colorate">Editorial</span><br>
+                <span class="simbolo-check">&#10003;</span><span>Mobile App Launch</span><span id="viola" class="scritte-colorate">Q1 Goals</span><br>
+                <span class="simbolo-uncheck">&times;</span><span>Interview John H.</span><span id="verde" class="scritte-colorate">Recruiting</span><br>
+                <span class="simbolo-check">&#10003;</span><span>Summit update to mobile storefronts</span><span id="giallo" class="scritte-colorate">Mobile</span>
+            </section>
+            <!-- fine sezione today -->
         </div>
     </main>
 </body>

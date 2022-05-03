@@ -59,3 +59,60 @@ header{
 hr{
     border-color: lightgray;
 }
+
+.simboli{
+    font-size: medium;
+}
+
+.contenuto{
+    font-weight: bold;
+    color: darkslategray;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.simbolo-check{
+    display: inline-block;
+    color: lightgreen;
+    text-align: center;
+    width: 25px;
+    border: 1px solid lightgreen;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.scritte-colorate{
+    padding: 7px;
+    font-size: 10px;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    color: white;
+    margin-left: 5px;
+    border-radius: 20px
+}
+
+#viola{
+    background-color: mediumpurple;
+}
+
+.simbolo-uncheck{
+    font-weight: 600;
+    font-size: larger;
+    display: inline-block;
+    color: red;
+    text-align: center;
+    width: 25px;
+    border: 1px solid red;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#verde{
+    background-color: mediumaquamarine;
+}
+
+#giallo{
+    background-color: goldenrod;
+}
