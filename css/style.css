@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: white;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+#logo-text{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: xxx-large;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.container{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#bottone{
+    padding: 8px;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#bottone2{
+    width: 100px;
+    padding: 8px;
+    background-color: white;
+    border-color: lightgray;
+    color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+hr{
+    border-color: lightgray;
+}
