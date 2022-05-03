@@ -32,6 +32,7 @@ header{
     margin: auto;
     margin-top: 50px;
     border-radius: 5px;
+    padding-bottom: 50px;
 }
 
 #bottone{
@@ -68,7 +69,8 @@ hr{
     font-weight: bold;
     color: darkslategray;
     margin-top: 30px;
-    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .simbolo-check{
@@ -80,20 +82,6 @@ hr{
     border-radius: 25px;
     margin-top: 10px;
     margin-right: 10px;
-}
-
-.scritte-colorate{
-    padding: 7px;
-    font-size: 10px;
-    background-color: cornflowerblue;
-    border-color: cornflowerblue;
-    color: white;
-    margin-left: 5px;
-    border-radius: 20px
-}
-
-#viola{
-    background-color: mediumpurple;
 }
 
 .simbolo-uncheck{
@@ -109,10 +97,33 @@ hr{
     margin-right: 10px;
 }
 
+
+.scritte-colorate{
+    padding: 7px;
+    font-size: 10px;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    color: white;
+    margin-left: 5px;
+    border-radius: 20px
+}
+
+#viola{
+    background-color: mediumpurple;
+}
+
 #verde{
     background-color: mediumaquamarine;
 }
 
 #giallo{
     background-color: goldenrod;
+}
+
+#violetto{
+    background-color: palevioletred;
+}
+
+#verde-chiaro{
+    background-color: yellowgreen;
 }
